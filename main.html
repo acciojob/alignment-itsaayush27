@@ -1,16 +1,110 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Assignment 3</title>
+  <style>
+    table.middle {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      border: 1px solid black;
+    }
+    table.middle td, table.middle th {
+      border: 1px solid black;
+      padding: 5px;
+    }
+    .center {
+      text-align: center;
+    }
+    .right {
+      text-align: right;
+    }
+    .green {
+      background-color: green;
+      color: white;
+    }
+    .blue {
+      background-color: blue;
+      color: white;
+    }
+    #t-image img {
+      display: block;
+      margin: auto;
+      width: 300px; /* Adjust width to fit nicely */
+      height: auto;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <h1>HTML Assignment #3</h1>
+
+  <!-- Table 1 -->
+  <table id="table-1" class="middle">
+    <tr>
+      <td>left</td>
+      <td class="center">center</td>
+      <td class="right">right</td>
+    </tr>
+    <tr>
+      <td>left</td>
+      <td class="center">center</td>
+      <td class="right">right</td>
+    </tr>
+    <tr>
+      <td>left</td>
+      <td class="center">center</td>
+      <td class="right">right</td>
+    </tr>
+  </table>
+
+  <!-- Table 2 -->
+  <table id="table-2" class="middle">
+    <tr>
+      <td colspan="6"></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+  </table>
+
+  <!-- Table 3 -->
+  <table id="table-3" class="middle">
+    <tr class="green">
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td id="t-image"><img src="https://media.gettyimages.com/id/74917603/photo/model-property-released-young-man-dunking-basketball.jpg?s=612x612&w=gi&k=20&c=ElanGs-oTvZgVSaGIIb2oONamZDRjj4TlNqpGkJ4l4s="></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr class="blue">
+      <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+  </table>
 
 </body>
-
 </html>
